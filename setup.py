@@ -106,7 +106,7 @@ _deps = [
     "requests",
     "requests-mock==1.10.0",
     "python>=3.8.0",
-    "torch>=2.3",
+    "torch",
     "safetensors>=0.3.1",
     "spandrel",
     "transformers",
