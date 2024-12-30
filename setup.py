@@ -198,7 +198,7 @@ install_requires = [
     deps["transformers"],
     deps["kornia"],
     deps["timm"],
-    deps["opencv-python-headless"],
+    deps["opencv-python"],
 ]
 
 version_range_max = max(sys.version_info[1], 10) + 1
